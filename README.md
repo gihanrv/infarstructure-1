@@ -1,5 +1,5 @@
-# infarstructure
-Terraform deployment for apache
+# Tnfarstructure
+Terraform deployment for apache auto sacling group
 
 ## Moudles avliable
 
@@ -19,6 +19,10 @@ An in-depth paragraph about your project and overview of use.
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Frist cate S3 bucket to stor terraform status in S3 with DynamoDB
+* Create the Aws VPC. This will create 2 Private AZs and 2 Public AZs in provided region (Note: You have to prvide your custom CIDRs for Public and Private Subnet)
+* Create Security Groups for Public ALB and Parivate EC2 instance 
+* Create Laumch Template
+* Create Auto scaling group
+* Associate With ALB
 
