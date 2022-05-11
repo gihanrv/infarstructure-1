@@ -1,8 +1,8 @@
 # Tnfarstructure
 Terraform deployment for apache auto sacling group
 
-## Moudles avliable
-
+## Tools Needs
+Terrafor>=0.13
 
 An in-depth paragraph about your project and overview of use.
 
